@@ -30,7 +30,7 @@ def password_generator():
     # Set the generated password to the Entry widget
     password_entry_var.set(password)
 
-    # Using pyperclip to copy password to clipboard
+    # Using pyperclip to copy password to clipboard.
     pyperclip.copy(password)
 
 
